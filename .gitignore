@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Build output
+dist/
+build/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Project Reports and Screenshots
+ExpenseIQ_Project_Report.pdf
+GITAM_logo.png
+Project_Report.html
+Project_Report.md
+generate_pdf.js
+screenshots/
+
