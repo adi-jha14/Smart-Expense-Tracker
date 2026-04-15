@@ -33,7 +33,12 @@ To run this project locally, you don't need any complex build steps. Just serve 
     cd Smart-Expense-Tracker
     ```
 3.  Open `index.html` in your browser or run via a local development server like VSCode Live Server.
-4.  *Note: To fully utilize the AI Insight generation, ensure you add your API key locally if needed by the `ai.js` module configuration.*
+4.  **Configuring the AI Assistant:**
+    To utilize the AI Insights generation powered by Gemini:
+    *   Get a free API key from [Google AI Studio](https://aistudio.google.com/).
+    *   Open `js/ai.js` in your code editor.
+    *   Locate `var API_KEY = '...';` near the top of the file (Line 6).
+    *   Replace the default key with your new Gemini API key.
 
 ## 🌟 Screenshots & Demo
 
